@@ -1,0 +1,105 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://images.pexels.com/photos/163444/sport-treadmill-tor-route-163444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.col{
+    /* background-color:rgba(64, 148, 148, 0.06); */
+    /* margin-left: 250px;
+    margin-right: 250px;*/
+    margin-top: 150px;
+    /* margin-bottom: 150px; */
+
+}
+
+.buffer {
+    height: 100px;
+}
+
+.col-12 {
+    /* background-color: rgba(127, 255, 212, 0.245); */
+    font-size: 50px;
+    text-align: center;
+    
+    color: #7d8a9e;
+  
+    
+   
+
+}
+
+p {
+    color: rgba(22, 10, 68, 0.633);
+    text-align: center;
+    text-decoration: solid;
+    font-size: 40px;
+    
+
+}
+
+
+.col:hover {
+    transform: scale(1.3);
+}
+
+a {
+    color: rgb(26, 46, 55);
+    text-align: center;
+    text-decoration: solid;
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+
+
+.btn form {
+    background-color: aquamarine;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+}
+
+.btn-xl {
+    border-radius: 250px;
+    --bs-btn-color: rgb(88, 76, 86);
+    --bs-btn-bg: #5c666885;
+    --bs-btn-border-color: #4a4f57;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #46b38654;
+    --bs-btn-hover-border-color: #38465b;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4d535d;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 5px 3px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #464f5c;
+    --bs-btn-disabled-border-color: #303e53;
+    text-transform: uppercase;
+    padding: 1rem 2rem; 
+}
+
+.btn-xl:hover {
+    background-color: rgb(200, 127, 255);
+    border-width: 2px;
+}
+
+hr {
+    margin: 20px auto;
+    color: #aa3a28;
+    border: 3px solid #839197;
+    max-width: 65px;
+    opacity: 1; 
+    border-radius: 15px; 
+}
+
